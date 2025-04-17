@@ -35,7 +35,7 @@ plugins:
 
 include: ["_pages"]
 
-highlighter: rouge  # 使用rouge插件
+highlighter: pygments
 
 # Exclude from processing.
 # The following items will not be processed, by default.
