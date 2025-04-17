@@ -25,13 +25,14 @@ email: proyrb@yeah.net
 description: >- # this means to ignore newlines until "baseurl:"
   深入嵌入式开发与LVGL实战指南 | 解析Linux内核、C/C++高性能编程 | 分享数据结构算法精粹与物联网系统设计 | 通过硬件接口开发、驱动调试案例与开源项目剖析提升工程能力
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://proyrb-reginald.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  proyrb-reginald
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 include: ["_pages"]
 
