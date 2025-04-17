@@ -2,6 +2,17 @@
 /**
  * Syntax highlighting styles
  */
+
+@font-face {
+  font-family: 'Consolas';
+  src: url('/assets/fonts/consola.ttf') format('ttf'),
+       url('/assets/fonts/consolab.ttf') format('ttf'),
+       url('/assets/fonts/consolai.ttf') format('ttf'),
+       url('/assets/fonts/consolaz.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .highlight {
   background: #fff;
   @extend %vertical-rhythm;
@@ -74,8 +85,7 @@
 /* 调整代码块字体 */
 code {
   font-family: 'Consolas', 'Menlo', 'Monaco', monospace;  /* 更换为等宽字体 */
-  // background-color: #f8f8f8;  /* 背景色 */
   padding: 4px;  /* 内边距 */
   border-radius: 4px;  /* 圆角 */
-    font-size: 0.85rem;  /* 字体大小 */
+  font-size: 0.85rem;  /* 字体大小 */
 }
